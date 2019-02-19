@@ -1,6 +1,6 @@
 class marsdb01::installmarsdb01 {
 
-     exec {"Install Mongo Server":
+     exec {'Install Mongo Server':
             command => 'yum -y install mongodb-org',
             path => ['/bin','/sbin','/usr/sbin'],
             provider => shell,
