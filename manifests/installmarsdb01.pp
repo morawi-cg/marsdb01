@@ -1,4 +1,4 @@
-class mongodb01::installmarsdb01 {
+class marsdb01::installmarsdb01 {
 
      exec {"Install Mongo Server":
             command => 'yum -y install mongodb-org',
